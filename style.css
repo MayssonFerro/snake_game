@@ -7,11 +7,22 @@ body {
     background-color: rgb(30, 8, 58);
 }
 
-.game-screen{
-    border: 20px solid rgb(35, 35, 35);
-    border-radius: 100px;
+#game-screen{
+    border: 15px solid aqua;
+    border-radius: 50px;
     display: grid;
     grid-template-columns: repeat(20, 20px);
     grid-template-rows: repeat(20, 20px);
     margin: 5px;
+    background-color: sandybrown;
 }
+
+.snake {
+    background-color: green;
+    border: 1px solid darkgreen;
+  }
+  
+  .food {
+    background-color: red;
+    border: 5px solid darkred;
+  }
