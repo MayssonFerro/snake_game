@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+* {
+  font-family: "Jersey 15", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     display: flex;
     align-items: center;
@@ -10,18 +17,53 @@ body {
 }
 
 #game-screen{
-    border: 15px solid #6b6e5b;
+    border: 15px solid #3a4401;
     border-radius: 50px;
     display: grid;
     grid-template-columns: repeat(20, 20px);
     grid-template-rows: repeat(20, 20px);
     margin: 5px;
-    background: #a1ba07;
+    background: #b3ca19;
+}
+
+#starting-card{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#starting-card h1{
+  color: red;
+  font-size: 64px;
+  text-shadow: 2px 3px darkred;
+}
+
+.title {
+  height: 80px;
+}
+
+#starting-card label{
+  font-size: 20px;
+}
+
+#start-bt{
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 3px darkred;
+  border: 5px solid darkred;
+  border-radius: 20px;
+  background-color: red;
+  font-size: 44px;
+  margin: 5px;
+  padding: 0px 10px 2px 10px;
 }
 
 .snake {
-    background-color: rgb(20, 146, 230);
-    border: 2px solid blue ;
+    background-color: rgb(43, 155, 192);
+    border: 2px solid blue;
   }
   
   .food {
